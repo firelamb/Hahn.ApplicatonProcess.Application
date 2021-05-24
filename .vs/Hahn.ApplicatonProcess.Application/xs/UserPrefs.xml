@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{B824B86D-D06C-4BC6-83C3-57272D230797}|Default">
+  <MonoDevelop.Ide.ItemProperties.Hahn.ApplicatonProcess.February2021.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Hahn.ApplicatonProcess.February2021.Web/Hahn.ApplicatonProcess.February2021.Web.csproj" Line="11" Column="24" />
+      <File FileName="Hahn.ApplicatonProcess.February2021.Web/Startup.cs" />
+      <File FileName="Hahn.ApplicatonProcess.February2021.Web/Dockerfile" />
+      <File FileName="Hahn.ApplicatonProcess.February2021.Web/web.config" />
+      <File FileName="Hahn.ApplicatonProcess.February2021.Web/package-lock.json" />
+      <File FileName="Hahn.ApplicatonProcess.February2021.Web/DataGenerator.cs" />
+      <File FileName="Hahn.ApplicatonProcess.February2021.Web/AutofacModule.cs" />
+      <File FileName="Hahn.ApplicatonProcess.February2021.Web/Properties/launchSettings.json" />
+      <File FileName="Hahn.ApplicatonProcess.February2021.Web/ClientApp/index.ejs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Hahn.ApplicatonProcess.Application" expanded="True">
+            <Node name="Hahn.ApplicatonProcess.February2021.Data" expanded="True">
+              <Node name="Context" expanded="True" />
+            </Node>
+            <Node name="Hahn.ApplicatonProcess.February2021.Domain" expanded="True" />
+            <Node name="Hahn.ApplicatonProcess.February2021.Web" expanded="True" selected="True">
+              <Node name="ClientApp" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

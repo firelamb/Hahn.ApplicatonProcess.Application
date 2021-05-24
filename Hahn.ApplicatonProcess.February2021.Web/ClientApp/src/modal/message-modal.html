@@ -1,0 +1,14 @@
+<template>
+  <ux-dialog>
+    <ux-dialog-body>
+      <h2 class="modal-title">${model.Message}</h2>
+    </ux-dialog-body>
+
+    <ux-dialog-footer>
+      <button click.trigger="controller.cancel()">Cancel</button>
+      <button class="btn btn-primary" click.trigger="controller.ok()">
+        Ok
+      </button>
+    </ux-dialog-footer>
+  </ux-dialog>
+</template>

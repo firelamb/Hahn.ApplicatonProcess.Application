@@ -1,0 +1,16 @@
+<template>
+  <ux-dialog>
+    <ux-dialog-header>${question}</ux-dialog-header>
+
+    <ux-dialog-body>
+      <form submit.trigger="controller.ok(answer)">
+        <input type="text" value.bind="answer" style="width: 100%; line-height: 16px; font-size: 16px" attach-focus>
+      </form>
+    </ux-dialog-body>
+
+    <ux-dialog-footer>
+      <button click.trigger="controller.cancel()">Cancel</button>
+      <button click.trigger="controller.ok(answer)">Ok</button>
+    </ux-dialog-footer>
+  </ux-dialog>
+</template>

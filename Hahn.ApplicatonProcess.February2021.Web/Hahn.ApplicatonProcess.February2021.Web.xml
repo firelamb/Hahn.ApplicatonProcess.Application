@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hahn.ApplicatonProcess.February2021.Web</name>
+    </assembly>
+    <members>
+        <member name="M:Hahn.ApplicatonProcess.February2021.Web.Controllers.AssetController.GetById(System.Int32)">
+            <summary>
+            Get one asset given an id
+            </summary>
+            <param name="id"></param>
+            <returns>A asset</returns>
+            <response code="201">Returns the asset</response>
+            <response code="400">If the asset is null or an error occurred</response>  
+        </member>
+        <member name="M:Hahn.ApplicatonProcess.February2021.Web.Controllers.AssetController.Insert(Hahn.ApplicatonProcess.February2021.Domain.Models.AssetModel)">
+             <summary>
+             Add one asset given an id
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 {
+                     "assetName": "This is a name",
+                     "department": 1,
+                     "countryOfDepartment": "Dominican Republic",
+                     "eMailAdressOfDepartment": "ronnysuero@gmail.com",
+                     "purchaseDate": "2021-04-24T18:50:49.114Z",
+                     "broken": true
+                 }
+            
+             </remarks>
+             <param name="model"></param>
+             <returns>A asset</returns>
+             <response code="201">Returns the new created asset</response>
+             <response code="400">If the asset is null or an error occurred</response>  
+        </member>
+        <member name="M:Hahn.ApplicatonProcess.February2021.Web.Controllers.AssetController.Update(Hahn.ApplicatonProcess.February2021.Domain.Models.AssetModel)">
+            <summary>
+            Update one asset given an id
+            </summary>
+            <param name="model"></param>
+            <returns>A asset</returns>
+            <response code="201">Returns the asset</response>
+            <response code="400">If the asset is null or an error occurred</response> 
+        </member>
+        <member name="M:Hahn.ApplicatonProcess.February2021.Web.Controllers.AssetController.Delete(System.Int32)">
+            <summary>
+            Delete one asset given an id
+            </summary>
+            <param name="id"></param>
+            <returns>A asset</returns>
+            <response code="201">Returns true if the asset was deleted</response>
+            <response code="400">If the asset is null or an error occurred</response> 
+        </member>
+        <member name="M:Hahn.ApplicatonProcess.February2021.Web.Controllers.DepartmentController.GetAll">
+            <summary>
+            Get all departments
+            </summary>
+            <returns>A list of departments</returns>
+            <response code="201">Returns the list of departments</response>
+            <response code="400">If the list is null or an error occurred</response>  
+        </member>
+    </members>
+</doc>

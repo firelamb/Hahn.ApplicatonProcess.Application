@@ -1,0 +1,13 @@
+{
+  "newAssets": "Create a new asset",
+  "name": "Name",
+  "countryDepartment": "Country of department",
+  "emailAdressOfDepartment": "Email adress of department",
+  "purchaseDate": "Purchase date",
+  "department": "Department",
+  "broken": "Broken",
+  "reset": "Reset",
+  "send": "Send",
+  "createAnotherAsset": "Create another asset",
+  "assetConfirmation": "Asset confirmation no. {{id}}"
+}

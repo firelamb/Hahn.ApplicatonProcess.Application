@@ -1,0 +1,16 @@
+<template>
+  <ux-dialog>
+    <ux-dialog-body>
+      <!-- <h2 class="modal-title">${message}</h2> -->
+      <ul>
+        <li repeat.for="error of errors">${error}</li>
+      </ul>
+    </ux-dialog-body>
+
+    <ux-dialog-footer>
+      <button class="btn btn-primary" click.trigger="controller.ok()">
+        Close
+      </button>
+    </ux-dialog-footer>
+  </ux-dialog>
+</template>

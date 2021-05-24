@@ -1,0 +1,305 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/zhanghai/Projects/第三方源代码/TempTemp的副本/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.February2021.Web/Hahn.ApplicatonProcess.February2021.Web.csproj": {}
+  },
+  "projects": {
+    "/Users/zhanghai/Projects/第三方源代码/TempTemp的副本/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.February2021.Data/Hahn.ApplicatonProcess.February2021.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zhanghai/Projects/第三方源代码/TempTemp的副本/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.February2021.Data/Hahn.ApplicatonProcess.February2021.Data.csproj",
+        "projectName": "Hahn.ApplicatonProcess.February2021.Data",
+        "projectPath": "/Users/zhanghai/Projects/第三方源代码/TempTemp的副本/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.February2021.Data/Hahn.ApplicatonProcess.February2021.Data.csproj",
+        "packagesPath": "/Users/zhanghai/.nuget/packages/",
+        "outputPath": "/Users/zhanghai/Projects/第三方源代码/TempTemp的副本/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.February2021.Data/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/zhanghai/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "http://47.254.24.116:5000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/zhanghai/Projects/第三方源代码/TempTemp的副本/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.February2021.Domain/Hahn.ApplicatonProcess.February2021.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zhanghai/Projects/第三方源代码/TempTemp的副本/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.February2021.Domain/Hahn.ApplicatonProcess.February2021.Domain.csproj",
+        "projectName": "Hahn.ApplicatonProcess.February2021.Domain",
+        "projectPath": "/Users/zhanghai/Projects/第三方源代码/TempTemp的副本/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.February2021.Domain/Hahn.ApplicatonProcess.February2021.Domain.csproj",
+        "packagesPath": "/Users/zhanghai/.nuget/packages/",
+        "outputPath": "/Users/zhanghai/Projects/第三方源代码/TempTemp的副本/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.February2021.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/zhanghai/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "http://47.254.24.116:5000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/zhanghai/Projects/第三方源代码/TempTemp的副本/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.February2021.Data/Hahn.ApplicatonProcess.February2021.Data.csproj": {
+                "projectPath": "/Users/zhanghai/Projects/第三方源代码/TempTemp的副本/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.February2021.Data/Hahn.ApplicatonProcess.February2021.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/zhanghai/Projects/第三方源代码/TempTemp的副本/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.February2021.Web/Hahn.ApplicatonProcess.February2021.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zhanghai/Projects/第三方源代码/TempTemp的副本/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.February2021.Web/Hahn.ApplicatonProcess.February2021.Web.csproj",
+        "projectName": "Hahn.ApplicatonProcess.February2021.Web",
+        "projectPath": "/Users/zhanghai/Projects/第三方源代码/TempTemp的副本/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.February2021.Web/Hahn.ApplicatonProcess.February2021.Web.csproj",
+        "packagesPath": "/Users/zhanghai/.nuget/packages/",
+        "outputPath": "/Users/zhanghai/Projects/第三方源代码/TempTemp的副本/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.February2021.Web/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/zhanghai/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "http://47.254.24.116:5000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/zhanghai/Projects/第三方源代码/TempTemp的副本/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.February2021.Domain/Hahn.ApplicatonProcess.February2021.Domain.csproj": {
+                "projectPath": "/Users/zhanghai/Projects/第三方源代码/TempTemp的副本/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.February2021.Domain/Hahn.ApplicatonProcess.February2021.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.0.4, )"
+            },
+            "Hellang.Middleware.ProblemDetails": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "Serilog.Exceptions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Serilog.Sinks.ColoredConsole": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.3, )"
+            },
+            "VueCliMiddleware": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

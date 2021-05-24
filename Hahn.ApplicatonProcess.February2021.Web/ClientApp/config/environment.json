@@ -1,0 +1,5 @@
+{
+  "debug": true,
+  "testing": true,
+  "urlEndPoint": "http://localhost:51891/api/"
+}

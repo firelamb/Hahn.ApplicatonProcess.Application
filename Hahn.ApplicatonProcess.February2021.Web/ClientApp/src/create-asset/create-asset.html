@@ -1,0 +1,113 @@
+<template>
+  <div class="row">
+    <div class="col-12">
+      <h2 i18n="newAssets"></h2>
+    </div>
+  </div>
+  <div class="row mt-2">
+    <div class="col-12">
+      <form id="createForm" submit.delegate="submit()">
+        <div class="row">
+          <div class="form-group col-6">
+            <label class="control-label" for="AssetName" i18n="name"></label>
+            <input
+              type="text"
+              class="form-control"
+              id="AssetName"
+              placeholder="Asset name"
+              value.bind="assetName & validate"
+            />
+          </div>
+          <div class="form-group col-6">
+            <label
+              class="control-label"
+              for="CountryOfDepartment"
+              i18n="countryDepartment"
+            ></label>
+            <input
+              type="text"
+              class="form-control"
+              id="CountryOfDepartment"
+              placeholder="Country of department"
+              value.bind="countryOfDepartment & validate"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-6">
+            <label
+              for="EMailAdressOfDepartment"
+              i18n="emailAdressOfDepartment"
+            ></label>
+            <input
+              type="text"
+              class="form-control"
+              id="EMailAdressOfDepartment"
+              placeholder="jhondoe@jhondoe.com"
+              value.bind="eMailAdressOfDepartment & validate"
+            />
+          </div>
+          <div class="form-group col-6">
+            <label
+              class="control-label"
+              for="PurchaseDate"
+              i18n="purchaseDate"
+            ></label>
+            <input
+              type="date"
+              class="form-control"
+              id="PurchaseDate"
+              placeholder="Date"
+              value.bind="purchaseDate & validate"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-6">
+            <label class="control-label" i18n="department"></label>
+            <select class="custom-select" value.bind="department & validate">
+              <option model.bind="null">Choose...</option>
+              <option
+                repeat.for="department of departments"
+                model.bind="department.id"
+              >
+                ${department.name}
+              </option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-6">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="Broken"
+                checked.bind="broken"
+              />
+              <label
+                class="form-check-label"
+                for="Broken"
+                i18n="broken"
+              ></label>
+            </div>
+          </div>
+          <div class="form-group col-6">
+            <button
+              disabled.bind="!canReset"
+              class="btn btn-secondary float-right ml-2"
+              click.trigger="reset()"
+              i18n="reset"
+            ></button>
+            <button
+              disabled.bind="canSave"
+              type="submit"
+              class="btn btn-primary float-right"
+              i18n="send"
+            ></button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</template>
